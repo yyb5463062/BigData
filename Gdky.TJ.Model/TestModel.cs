@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Gdky.TJ.Model
 {
+    /// <summary>
+    /// 实体类
+    /// </summary>
     public class TestModel
     {
         public int ID { get; set; }

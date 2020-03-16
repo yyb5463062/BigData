@@ -11,8 +11,12 @@ namespace Gdky.TJ.DataBaseHelper
 {
     public class SqlServerHelper
     {
-        private static SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString); //连接字符串
+        private static SqlConnection con;
         private static SqlCommand cmd = new SqlCommand();
+        public SqlServerHelper(string connection)
+        {
+            con = new SqlConnection(connection); //连接字符串
+        }
 
         /// <summary>
         /// 数据库的插入、删除、修改操作

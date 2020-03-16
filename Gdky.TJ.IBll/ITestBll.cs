@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Gdky.TJ.IBll
 {
+    /// <summary>
+    /// bll层接口
+    /// </summary>
     public interface ITestBll
     {
         IList<TestModel> GetList();

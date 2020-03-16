@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 
 namespace Gdky.Tj.IDal
 {
+    /// <summary>
+    /// dal层接口
+    /// </summary>
     public interface ITestDal
     {
         DataTable GetList();
